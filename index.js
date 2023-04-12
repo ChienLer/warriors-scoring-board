@@ -1,34 +1,35 @@
-let points = 0
+let Hpoints = 0
+let Gpoints = 0
 let homePoints = document.getElementById("home-points")
 let guestPoints = document.getElementById("guest-points")
 
 function homePlus1() {
-    points += 1
-    homePoints.textContent = points
+    Hpoints += 1
+    homePoints.textContent = Hpoints
 }
 
 function homePlus2() {
-    points += 2
-    homePoints.textContent = points
+    Hpoints += 2
+    homePoints.textContent = Hpoints
 }
 
 function homePlus3() {
-    points += 3
-    homePoints.textContent = points
+    Hpoints += 3
+    homePoints.textContent = Hpoints
 }
 
 
 function guestPlus1() {
-    points += 1
-    guestPoints.textContent = points
+    Gpoints += 1
+    guestPoints.textContent = Gpoints
 }
 
 function guestPlus2() {
-    points += 2
-    guestPoints.textContent = points
+    Gpoints += 2
+    guestPoints.textContent = Gpoints
 }
 
 function guestPlus3() {
-    points += 3
-    guestPoints.textContent = points
+    Gpoints += 3
+    guestPoints.textContent = Gpoints
 }
